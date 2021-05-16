@@ -8,7 +8,7 @@ fplt.odd_plot_background = fplt.background
 fplt.cross_hair_color = fplt.foreground
     
 # create two axes
-ax, ax2 = fplt.create_plot('ETHUSDT', rows=2)
+ax, ax2 = fplt.create_plot('Strategy', rows=2)
 ax.set_visible(crosshair=True, xaxis=True,
                 yaxis=True, xgrid=True, ygrid=True)
 ax2.set_visible(crosshair=True, xaxis=True,
